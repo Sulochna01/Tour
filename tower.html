@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="n.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    
+</head>
+<body>
+  <header> 
+    <div class="nav">
+      <h1 class="logo">South<span>Korea</span></h1>
+      <ul>
+        <li><a href="index.html"><i class="bi bi-house-door-fill"></i></a></li>
+        <li><a href="#">Discover <i class="bi bi-caret-down-fill"></i></a>
+          <div class="down">
+            <ul>
+              <li><a href="fort.html">fort</a></li>
+              <li><a href="animal.html">Wildlife</a></li>
+              <!-- <li><a href="#">Lakes</a></li> -->
+              <!-- <li><a href="#">Museums</a></li> -->
+            </ul>
+          </div>
+        </li>
+        <li><a href="#">Experience <i class="bi bi-caret-down-fill"></i></a>
+        <div class="drop">
+          <ul>
+            <li><a href="adventure.html">Visit</a></li>
+            <!-- <li><a href="#">Fairs & Festivals</a></li> -->
+            <li><a href="food.html">Food</a></li>
+          </ul>
+        </div>
+       </li>
+        <li><a href="about.html">About </a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+    </div>
+  <h1>N (Namsan) Seoul Tower</h1> 
+  <p>
+    <ul>
+<li> Namsan Tower was built in 1969, it tops out at 236 meters (777 feet) high with an elevation of 479 meters (1,574 feet) above sea level.</li>
+<li>Since 1980, the N Seoul Tower has been a landmark of the skyline of downtown. Over the years, it has also been known as the Namsan Tower and Seoul Tower.</li>
+<li> The tower's main attractions include multi-colored digital art projected onto the tower at night, a digital observatory, a roof terrace, the HanCook restaurant, the n.Grill restaurant, and the Haneul (Sky) Restroom.</li>
+<li> Namsan Seoul Tower's mountain surroundings on Namsan Mountain have made it a popular place to unwind for locals and tourists alike. </li>
+ <li>Situated on top of the N Plaza, the Roof Terrace is a spacious wooden viewing deck whose exotic atmosphere makes it very popular with lovers.</li>
+ <li>A recent attraction for courting couples is "Locks of Love," thousands of padlocks attached to the fence by romantic Seoulites symbolizing their undying affection.</li>   
+</ul>
+    </p>
+    <div class="main">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="tower/day view.jpg"></div>
+            <div class="swiper-slide"><img src="tower/tower.jpg"></div>
+            <div class="swiper-slide"><img src="tower/t.jpg"></div>
+            ...
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+    <!-- </div> -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> 
+    <script>
+      const swiper = new Swiper('.swiper', {
+      autoplay:{
+        delay:3000,
+        disableOnInteraction:false,
+      },
+    
+      loop: true,
+    
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      clickable:true,
+      },
+    
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    
+     
+    });
+    </script>
+
+    <h2>Attraction</h2>
+    <div class="padlock"><h3> Love Padlock</h3>
+        <!-- <img src="tower/love-locks.jpg">     -->
+    <p>
+     <ol>
+      <li>'Love padlocks' is a common couple activity consists of the purchasing of a padlock and key, where initials, messages and symbols can be personally inscribed onto the surface of the lock with markers and pens.</li>
+      <li> Securing the padlocks on the fences filled with locks of previous participants, the key is often thrown away as a symbol of everlasting love.</li>
+      <li>This attraction is situated on the 2nd floor of the N Plaza, at the Roof Terrace.</li>
+      <li>The "Locks of Love" is a popular location for people to hang locks that symbolize eternal love, and has been depicted in many Korean television shows, dramas, and movies for this reason.</li>
+       </ol>   
+    </p>
+    <img src="tower/love-locks.jpg">
+     </div>
+    <div class="tower">
+        <h3>Lighting of The Tower</h3>
+        <!-- <img src="tower/tower.jpg"> -->
+    <p>
+     <ol>
+     <li>The tower uses the latest LED technology to offer visitors a digital, cultural art experience through 'light art.'</li>
+     <li>The N Seoul Tower puts on many different shows, including the "Reeds of Light" and "Shower of Light."</li>
+     <li>On Earth Day, lights were held nationwide to promote awareness of energy conservation. At 8 p.m KST. on that day, lights at N Seoul Tower on Namsan disappear into darkness.</li>
+       </ol> 
+    </p>
+    <img src="tower/tower.jpg">
+    </div>
+    <div class="pond"><h3> Wishing Pond and Observatory</h3>
+        <!-- <img src="tower/whishing pond.jpg"> -->
+    <p>
+     <ol>
+     <li> The Wishing Pond can be found on the second floor of the tower, where people throw coins into the pond while making a wish.</li>
+     <li> The coins are collected and donated to help develop schools in China and Southeast Asia, especially in underdeveloped areas.</li>
+     <li>The observatory not only offers the 360° view of the city, but also exhibits 600 years of Korean history through 36 LCD screens.</li>
+       </ol>   
+    </p>
+    <img src="tower/whishing pond.jpg">
+    </div>
+ 
+    </div> 
+    </div> 
+</body>
+</html>
